@@ -1,0 +1,21 @@
+{
+  "name": "korovina/todo",
+  "description": "todo MVC",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Korovina Nataliya",
+      "email": "korovina-nataliya@mail.ru"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "vlucas/phpdotenv": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src"
+    }
+  }
+}
